@@ -4,16 +4,21 @@ import Highlights from './components/Highlights'
 import Model from './components/Model'
 import './App.css'
 import Features from './components/Features'
+import HowItWorks from './components/HowItWorks'
+import Footer from './components/Footer'
+
 
 function App() {
-
-  return (
+  
+    return (
     <main className="bg-black">
       <Navbar />
       <Hero />
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
+      <Footer />
     </main>
   )
 }

@@ -185,8 +185,11 @@ const VideoCarousel = () => {
                         <span key={index}
                         ref={(el) => (videoDivRef.current[index] = el)}
                         className="mx-2 w-3 h-3 bg-gray-200 rounded-full relative cursor-pointer">
-                            <span className="absolute h-full w-full rounded-full"
-                             ref={(el) => (videoSpanRef.current[index] = el)} />
+                            <span className="absolute h-full w-full rounded-full "
+                             ref={(el) => (videoSpanRef.current[index] = el)} 
+                             onClick={() => {
+                                
+                             }}/>
 
                             
                         </span>  
